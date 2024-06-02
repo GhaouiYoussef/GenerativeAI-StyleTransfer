@@ -9,7 +9,6 @@ This repository contains the implementation of a CycleGAN for image-to-image tra
 - [Pretrained Model](#pretrained-model)
 - [Deeper Generator Network](#deeper-generator-network)
 - [Improvements](#improvements)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Evaluation](#evaluation)
 - [Results](#results)
@@ -32,16 +31,10 @@ To further enhance the detail capture capability of the generator, we introduced
 
 ## Improvements
 The integration of the pretrained model with the deeper generator network led to a significant reduction in the MiFID score from 202.53147 to 93.81957, indicating a substantial improvement in the quality of the generated images.
+### From:
 ![Sample Results](im_o.png)
-
-## Installation
-To get started, clone the repository and install the required dependencies:
-
-```bash
-git clone https://github.com/yourusername/cyclegan-enhanced.git
-cd cyclegan-enhanced
-pip install -r requirements.txt
-```
+### To:
+![Sample Results](im_imp.png)
 
 ## Usage
 1. Prepare your dataset and organize it into appropriate folders.
@@ -73,7 +66,7 @@ where \( \mathbf{z}_{\text{gen}} \) and \( \mathbf{z}_{\text{real}} \) represent
 ## Results
 Here are some sample results comparing the original CycleGAN and the enhanced CycleGAN with the deeper generator network.
 
-![Sample Results](results/sample_results.png)
+![Sample Results](im_train.png)
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
