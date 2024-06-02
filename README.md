@@ -32,6 +32,7 @@ To further enhance the detail capture capability of the generator, we introduced
 
 ## Improvements
 The integration of the pretrained model with the deeper generator network led to a significant reduction in the MiFID score from 202.53147 to 93.81957, indicating a substantial improvement in the quality of the generated images.
+From ![Sample Results](/Screenshot2024-05-30143729.png)
 
 ## Installation
 To get started, clone the repository and install the required dependencies:
