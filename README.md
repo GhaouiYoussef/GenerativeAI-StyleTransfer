@@ -38,9 +38,10 @@ The integration of the pretrained model with the deeper generator network led to
 
 ## Usage
 1. Prepare your dataset and organize it into appropriate folders.
-2. Train the CycleGAN model:
-3. Evaluate the model:
-4. Explore the extra approches i used or create new ones. 
+  - `https://www.kaggle.com/competitions/gan-getting-started/data`
+3. Train the CycleGAN model:
+4. Evaluate the model:
+5. Explore the extra approches i used or create new ones. 
 
 
 ## Evaluation
