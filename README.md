@@ -24,7 +24,7 @@ CycleGANs are powerful models for unpaired image-to-image translation tasks. Thi
 - Significant improvement in MiFID score
 
 ## Pretrained Model
-We use a pretrained CycleGAN model that is not overly complex, trained to get a general idea of the images. This pretrained model helps in achieving faster convergence and better initial results.
+We Created a first CycleGAN model architecture that is not overly complex, trained to get a general idea of the images, then used it later as a pretrained first model pipeline. This pretrained model helps in achieving faster convergence and better initial results.
 
 ## Deeper Generator Network
 To further enhance the detail capture capability of the generator, we introduced a deeper generator network. The deeper network includes additional layers and a more complex architecture, allowing it to learn finer details in the images while keeping the discriminator unchanged.
