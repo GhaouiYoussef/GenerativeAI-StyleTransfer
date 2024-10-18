@@ -54,12 +54,11 @@ FID, along with Inception Score (IS), is a standard evaluation method for GANs. 
 
 ### What is MiFID?  
 MiFID accounts for training sample memorization in addition to FID. Memorization distance is calculated using cosine distance between generated and real images, averaged across all user-generated samples. The final MiFID score is calculated as:
-
 MiFID accounts for training sample memorization in addition to FID. The memorization distance is calculated using cosine distance between generated and real images, averaged across all user-generated samples. The final MiFID score is calculated as:
 
-\[
+$$
 \text{MiFID} = \text{FID} \cdot \max(1, d_{\text{mem}} - \epsilon)
-\]
+$$
 
 ## Results  
 Here are sample results comparing the original CycleGAN and the enhanced CycleGAN with the deeper generator network.  
